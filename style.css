@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #92E7DA;
+    color: #6784A1;
+}
+
+.container {
+    display: flex;
+    /* justify-content: space-between; */
+    background-color: #C9F2F1;
+    width: 95%;
+    border-radius: 15px;
+    margin: 20px auto;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+    height: 100vh;
+}
+
+/* SIDEBAR */
+
+.sidebar {
+    background-color: #EEFBF8;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 15px;
+}
+
+/* SIDEBAR - PROFILE */
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile h4 {
+    color: #183e63;
+}
+
+.profile p, .version {
+    font-size: 0.8rem;
+}
+
+/* SIDEBAR - ELEMENTS */
+
+.element {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+}
+
+.element p {
+    padding-left: 50px;
+}
+
+.icon {
+    font-size: 1.5rem;
+    background: -webkit-linear-gradient(#8CDDD2, #7CA5D4);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-clip: text;
+}
+
+/* SIDEBAR - FREE GAMES */
+
+.free-games {
+    display: flex;
+    color: white;
+    background: linear-gradient(to top right, #8CDDD2, #7CA5D4);
+    border-radius: 20px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 8px 25px;
+}
+
+.free-games p {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    width: 100%;
+}
+
+.main h1 {
+    color: #183e63;
+}
+
+.top {
+    padding-left: 122px;
+}
+
+.top hr {
+    background-color: #EEFBF8;
+    border: 12px solid #EEFBF8;
+    border-radius: 20px;
+    width: 260px;
+}
+
+.downloading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.box {
+    background-color: #EEFBF8;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 75%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+}
+
+.item-2 hr {
+    background-color: #91E6D5;
+    border: 12px solid #91E6D5;
+    border-radius: 20px;
+}
